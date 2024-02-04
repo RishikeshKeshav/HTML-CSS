@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           FORM
+        </title>
+    </head>
+    <body>
+        <form action="index.php" method="POST" enctype="multipart/form-data">
+           <label for="username"> username :</label>
+            <input type="text" id="username" minlength="3" required placeholder="username">
+             <br>
+            <label> password:</label>
+            <input type="password">
+            <br>
+            <label for="email"> email:</label>
+            <input type="email"placeholder="rishi@gmail.com" id="email">
+            <br>
+            <label for="date">Date:</label>
+            <input type="date" id="date">
+            <br>
+            <label>quantity:</label>
+            <input type="number" min="3" max="6">
+        <br>
+        <label for="gender"> gender</label>
+        <input type="radio" id="gender">
+        <br>
+        <label for="gender"> male</label>
+        <input type="radio" id="gender">
+        <br>
+        <label for="gender"> female</label>
+        <input type="radio" id="gender">
+
+
+        <br>
+        <label for="payment"> payment</label>
+        <select id="payment">
+       <option value="visa">debitcard</option>
+       <option value="mastercard">creditcard</option>
+       <option>cash</option>
+        </select>   
+<br>
+            <label for="subscribe">subscirbe</label>
+            <input type="checkbox" id="subscribe">
+            <br>
+
+            <label for="comment">comment</label>
+            <textarea id="comment" rows="10" cols="24"></textarea>
+            <br>
+<br>
+            <label for="file">file</label>
+            <input type="file" id="file" accept="word/docx, pdf ,text">
+            <br><br>
+            <input type="reset">
+            <input type="submit">
+
+        </form>
+    </body>
+</html>
